@@ -1,0 +1,144 @@
+﻿{
+  "General information": {
+    "Product": {
+      "Article number": "P001016396-001-001",
+      "Revision letter": "D",
+      "PCBA number": "1204"
+    },
+    "Serial number": {
+      "Production date": {
+        "Year": "2020",
+        "Week": "48"
+      },
+      "Manufacturer code": "HA ",
+      "Running number": "12345"
+    },
+    "Overall result": {
+      "Test date/time": {
+        "Date": "2019-11-28",
+        "Time": "12:34:56"
+      },
+      "Pass/fail": "Passed"
+    },
+    "Firmware versions": {
+      "Test firmware": null,
+      "SoftDevice": null,
+      "Application": " LCX_rfWakeOnRadio_HW3_prod_file_A3.1.0.3_B3.0.0.1_HW_0x27_Intel.hex"
+    },
+    "Test equipment information": {
+      "Test station ID": "TU00-416",
+      "Additional information": {
+        "Additional test equipment info 1": "PCBA1204 production test SW",
+        "Additional test equipment info 2": "V1,4",
+        "Additional test equipment info 3": "Build 00125",
+        "Additional test equipment info 4": null
+      }
+    }
+  },
+  "Detailed test results": {
+    "Test 1": {
+      "Tested parameter": "Firmware upload",
+      "Pass/fail": "Passed",
+      "Firmware filename": "LCX_rfWakeOnRadio_HW3_prod_file_A3.1.0.3_B3.0.0.1_HW_0x27_Intel.hex",
+      "Program result": "OK",
+      "Read value READY1..9": "Ready_V04"
+    },
+    "Test 2": {
+      "Tested parameter": "Polarity protection",
+      "Pass/fail": "Passed",
+      "Acceptance limit VWRONG": "1.25 V",
+      "Acceptance limit VCORRECT": "4.30 V",
+      "Measured voltage |Vwrongpol|": "1.07 V",
+      "Measured voltage Vcorrectpol": "4.46 V"
+    },
+    "Test 3": {
+      "Tested parameter": "Voltage regulator U2 & ground spring",
+      "Pass/fail": "Passed",
+      "Acceptance limit VREGU1MIN": "3.10 V",
+      "Acceptance limit VREGU1MAX": "3.40 V",
+      "Measured voltage VregulatorU1": "3.29 V"
+    },
+    "Test 4": {
+      "Tested parameter": "Reset at low voltage",
+      "Pass/fail": "Passed",
+      "Acceptance limit VPOWERNORESET": "2.0 V",
+      "Acceptance limit VPOWERRESET": "1.6 V",
+      "Acceptance limit VNORESETMIN": "1.80 V",
+      "Acceptance limit VRESETMAX": "0.50 V",
+      "Measured voltage Vnoreset": "1.95 V",
+      "Measured voltage Vreset": "0.32 V"
+    },
+    "Test 5": {
+      "Tested parameter": "Label printing",
+      "Pass/fail": "Passed",
+      "Error message": null
+    },
+    "Test 6": {
+      "Tested parameter": "Production parameters",
+      "Pass/fail": "Passed",
+      "Article number": "P001016396001001",
+      "Revision": "D",
+      "Year code": "18",
+      "Week code": "03",
+      "Manufacturer code": "TFI",
+      "Running number": "00043",
+      "PRODWRITE1..29": "503030313031363339363030313030314431383033544649303030343330311580h",
+      "All bytes successfully written": "Passed",
+      "PRODREAD1..29": "503030313031363339363030313030314431383033544649303030343330311580h",
+      "All read bytes are identical to written bytes": "Passed"
+    },
+    "Test 7": {
+      "Tested parameter": "Lock case inputs & interrupt pin",
+      "Pass/fail": "Passed",
+      "Expected result DBclosed1": "08h",
+      "Expected result DBclosed2": "18h",
+      "Expected result LAclosed1": "04h",
+      "Expected result LAclosed2": "14h",
+      "Expected result DOclosed1": "02h",
+      "Expected result DOclosed2": "12h",
+      "Expected result MKclosed1": "01h",
+      "Expected result MKclosed2": "11h",
+      "Expected result ALLopen1": "00h",
+      "Expected result ALLopen2": "10h",
+      "Read value DBclosed1": "08h",
+      "Read value DBclosed2": "18h",
+      "Read value LAclosed1": "04h",
+      "Read value LAclosed2": "14h",
+      "Read value DOclosed1": "02h",
+      "Read value DOclosed2": "12h",
+      "Read value MKclosed1": "01h",
+      "Read value MKclosed2": "11h",
+      "Read value ALLopen1": "00h",
+      "Read value ALLopen2": "10h"
+    },
+    "Test 8": {
+      "Tested parameter": "Motor outputs",
+      "Pass/fail": "Passed",
+      "Acceptance limit VMOTORF": "3.00 V",
+      "Acceptance limit VMOTORR": "-3.00 V",
+      "Acceptance limit VMOTORS": "0.05 V",
+      "Measured voltage VMotorFWD": "3.19 V",
+      "Measured voltage VMotorREV": "-3.20 V",
+      "Measured voltage |VMotorSTOP|": "0.02 V"
+    },
+    "Test 9": {
+      "Tested parameter": "Touch sensor input",
+      "Pass/fail": "Passed",
+      "Acceptance limit PROXRAWdiff": "300",
+      "Expected result PROXtouch": "55h",
+      "Expected result PROXnotouch": "0Fh",
+      "Read value PROXtouch": "55h",
+      "Read value PROXnotouch": "0F",
+      "Read value PROXRAWtouch": "1951",
+      "Read value PROXRAWnotouch": "1425",
+      "Calculated value PROXRAWdiff": "526"
+    },
+    "Test 10": {
+      "Tested parameter": "Current consumption",
+      "Pass/fail": "Passed",
+      "Acceptance limit ISLEEPMAX": "20.0 ��A",
+      "Acceptance limit IWAIT": "1 s",
+      "Measured current Isleep": "12.8 ��A"
+    }
+  }
+}

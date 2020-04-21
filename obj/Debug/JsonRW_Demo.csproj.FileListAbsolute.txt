@@ -1,0 +1,10 @@
+D:\visual studio 2017\Project\JsonRW_Demo\JsonRW_Demo\bin\Debug\JsonRW_Demo.exe.config
+D:\visual studio 2017\Project\JsonRW_Demo\JsonRW_Demo\bin\Debug\JsonRW_Demo.exe
+D:\visual studio 2017\Project\JsonRW_Demo\JsonRW_Demo\bin\Debug\JsonRW_Demo.pdb
+D:\visual studio 2017\Project\JsonRW_Demo\JsonRW_Demo\bin\Debug\Newtonsoft.Json.dll
+D:\visual studio 2017\Project\JsonRW_Demo\JsonRW_Demo\bin\Debug\Newtonsoft.Json.xml
+D:\visual studio 2017\Project\JsonRW_Demo\JsonRW_Demo\obj\Debug\JsonRW_Demo.csprojAssemblyReference.cache
+D:\visual studio 2017\Project\JsonRW_Demo\JsonRW_Demo\obj\Debug\JsonRW_Demo.csproj.CoreCompileInputs.cache
+D:\visual studio 2017\Project\JsonRW_Demo\JsonRW_Demo\obj\Debug\JsonRW_Demo.csproj.CopyComplete
+D:\visual studio 2017\Project\JsonRW_Demo\JsonRW_Demo\obj\Debug\JsonRW_Demo.exe
+D:\visual studio 2017\Project\JsonRW_Demo\JsonRW_Demo\obj\Debug\JsonRW_Demo.pdb
